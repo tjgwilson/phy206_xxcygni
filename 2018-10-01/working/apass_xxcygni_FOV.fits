@@ -1,0 +1,197 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                 5155 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.4"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.4-1 (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2020-08-14T08:24:16
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="ConeSearch.aspx?CAT=apass&amp;RA=300.81517601&amp;DEC=58.95459031&amp;SR=0.25&amp;VERB=2" nrows="151">
+<DESCRIPTION>
+Objects found : 400 , APASS, ConeSearch: RA=300.81517601 DEC=58.95459031 SR=0.25,OK
+</DESCRIPTION>
+<PARAM arraysize="2" datatype="char" name="QUERY_STATUS" value="OK"/>
+<PARAM datatype="double" name="RA" unit="Degrees" value="300.81517601">
+<DESCRIPTION>Right Ascension</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="Dec" unit="Degrees" value="58.95459031">
+<DESCRIPTION>Declination</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="Radius" unit="Degrees" value="0.25">
+<DESCRIPTION>Search Radius</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="8" datatype="char" name="Service short name" value="APASS CS">
+<DESCRIPTION>Short name for Cone service</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="43" datatype="char" name="Service title" value="AAVSO Photometric All Sky Survey ConeSearch">
+<DESCRIPTION>Cone service title</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="38" datatype="char" name="Identifier" value="ivo://archive.stsci.edu/catalogs/apass">
+<DESCRIPTION>Unique resource registry identifier</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="41" datatype="char" name="Service publisher" value="Space Telescope Science Institute Archive">
+<DESCRIPTION>Publisher for Cone service</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="46" datatype="char" name="Service reference URL" value="http://archive.stsci.edu/vo/mast_services.html">
+<DESCRIPTION>Descriptive URL for search resource</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Contact person" value="STScI Archive &lt;archive@stsci.edu&gt;">
+<DESCRIPTION>Individual to contact about this service</DESCRIPTION>
+</PARAM>
+<FIELD ID="objID" datatype="long" name="objID" ucd="meta.record">
+<DESCRIPTION>Database ID</DESCRIPTION>
+<VALUES null='-9223372036854775808'/>
+</FIELD>
+<FIELD ID="ra" datatype="double" name="ra" ucd="pos.eq.ra;meta.main" unit="deg" utype="caom:apass.catalogEntity.ra">
+<DESCRIPTION>Right Ascension (ICRS)</DESCRIPTION>
+</FIELD>
+<FIELD ID="dec" datatype="double" name="dec" ucd="pos.eq.dec;meta.main" unit="deg" utype="caom:apass.catalogEntity.dec">
+<DESCRIPTION>Declination (ICRS)</DESCRIPTION>
+</FIELD>
+<FIELD ID="raerr" datatype="double" name="raerr" ucd="stat.error;pos.eq.ra" unit="arcsec">
+<DESCRIPTION>ra error</DESCRIPTION>
+</FIELD>
+<FIELD ID="decerr" datatype="double" name="decerr" ucd="stat.error;pos.eq.dec" unit="arcsec">
+<DESCRIPTION>dec error</DESCRIPTION>
+</FIELD>
+<FIELD ID="Vmag" datatype="float" name="Vmag" ucd="phot.mag;em.opt.V" unit="mag" utype="caom:apass.catalogEntity.mag">
+<DESCRIPTION>V band mag</DESCRIPTION>
+</FIELD>
+<FIELD ID="B_V" datatype="float" name="B_V" ucd="phot.color;em.opt.B;em.opt.V" unit="mag" utype="caom:apass.catalogEntity.color">
+<DESCRIPTION>(B-V)</DESCRIPTION>
+</FIELD>
+<FIELD ID="Bmag" datatype="float" name="Bmag" ucd="phot.mag;em.opt.B" unit="mag" utype="caom:apass.catalogEntity.mag">
+<DESCRIPTION>B band mag</DESCRIPTION>
+</FIELD>
+<FIELD ID="gmag" datatype="float" name="gmag" ucd="phot.mag;em.opt.g" unit="mag" utype="caom:apass.catalogEntity.mag">
+<DESCRIPTION>g band mag</DESCRIPTION>
+</FIELD>
+<FIELD ID="rmag" datatype="float" name="rmag" ucd="phot.mag;em.opt.r" unit="mag" utype="caom:apass.catalogEntity.mag">
+<DESCRIPTION>r band mag</DESCRIPTION>
+</FIELD>
+<FIELD ID="imag" datatype="float" name="imag" ucd="phot.mag;em.opt.i" unit="mag" utype="caom:apass.catalogEntity.mag">
+<DESCRIPTION>i band mag</DESCRIPTION>
+</FIELD>
+<FIELD ID="Verr" datatype="float" name="Verr" ucd="stat.error" unit="mag">
+<DESCRIPTION>V mag error</DESCRIPTION>
+</FIELD>
+<FIELD ID="B_Verr" datatype="float" name="B_Verr" ucd="stat.error" unit="mag">
+<DESCRIPTION>B-V mag error</DESCRIPTION>
+</FIELD>
+<FIELD ID="Berr" datatype="float" name="Berr" ucd="stat.error" unit="mag">
+<DESCRIPTION>B mag error</DESCRIPTION>
+</FIELD>
+<FIELD ID="gErr" datatype="float" name="gErr" ucd="stat.error" unit="mag">
+<DESCRIPTION>g mag error</DESCRIPTION>
+</FIELD>
+<FIELD ID="rErr" datatype="float" name="rErr" ucd="stat.error" unit="mag">
+<DESCRIPTION>r mag error</DESCRIPTION>
+</FIELD>
+<FIELD ID="iErr" datatype="float" name="iErr" ucd="stat.error" unit="mag">
+<DESCRIPTION>i mag error</DESCRIPTION>
+</FIELD>
+<FIELD ID="nObsNights" datatype="int" name="nObsNights" ucd="meta.number">
+<DESCRIPTION>No nights observed</DESCRIPTION>
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD ID="nObsImages" datatype="int" name="nObsImages" ucd="meta.number">
+<DESCRIPTION>No images observed</DESCRIPTION>
+<VALUES null='-2147483648'/>
+</FIELD>
+<FIELD ID="Field" arraysize="10" datatype="char" name="Field" ucd="obs.field">
+<DESCRIPTION>field name</DESCRIPTION>
+</FIELD>
+<FIELD ID="mag" datatype="float" name="mag" ucd="phot.mag;em.opt" unit="mag">
+<DESCRIPTION>best mag</DESCRIPTION>
+</FIELD>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  110 / width of table in bytes                        NAXIS2  =                  151 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   21 / number of columns                              EXTNAME = 'ConeSearch.aspx?CAT=apass&RA=300.81517601&DEC=58.95459031&SR=0.25...'TTYPE1  = 'objID   '           / label for column 1                             TFORM1  = 'K       '           / format for column 1                            TCOMM1  = 'Database ID'                                                         TUCD1   = 'meta.record'                                                         TTYPE2  = 'ra      '           / label for column 2                             TFORM2  = 'D       '           / format for column 2                            TUNIT2  = 'deg     '           / units for column 2                             TCOMM2  = 'Right Ascension (ICRS)'                                              TUCD2   = 'pos.eq.ra;meta.main'                                                 TUTYP2  = 'caom:apass.catalogEntity.ra'                                         TTYPE3  = 'dec     '           / label for column 3                             TFORM3  = 'D       '           / format for column 3                            TUNIT3  = 'deg     '           / units for column 3                             TCOMM3  = 'Declination (ICRS)'                                                  TUCD3   = 'pos.eq.dec;meta.main'                                                TUTYP3  = 'caom:apass.catalogEntity.dec'                                        TTYPE4  = 'raerr   '           / label for column 4                             TFORM4  = 'D       '           / format for column 4                            TUNIT4  = 'arcsec  '           / units for column 4                             TCOMM4  = 'ra error'                                                            TUCD4   = 'stat.error;pos.eq.ra'                                                TTYPE5  = 'decerr  '           / label for column 5                             TFORM5  = 'D       '           / format for column 5                            TUNIT5  = 'arcsec  '           / units for column 5                             TCOMM5  = 'dec error'                                                           TUCD5   = 'stat.error;pos.eq.dec'                                               TTYPE6  = 'Vmag    '           / label for column 6                             TFORM6  = 'E       '           / format for column 6                            TUNIT6  = 'mag     '           / units for column 6                             TCOMM6  = 'V band mag'                                                          TUCD6   = 'phot.mag;em.opt.V'                                                   TUTYP6  = 'caom:apass.catalogEntity.mag'                                        TTYPE7  = 'B_V     '           / label for column 7                             TFORM7  = 'E       '           / format for column 7                            TUNIT7  = 'mag     '           / units for column 7                             TCOMM7  = '(B-V)   '                                                            TUCD7   = 'phot.color;em.opt.B;em.opt.V'                                        TUTYP7  = 'caom:apass.catalogEntity.color'                                      TTYPE8  = 'Bmag    '           / label for column 8                             TFORM8  = 'E       '           / format for column 8                            TUNIT8  = 'mag     '           / units for column 8                             TCOMM8  = 'B band mag'                                                          TUCD8   = 'phot.mag;em.opt.B'                                                   TUTYP8  = 'caom:apass.catalogEntity.mag'                                        TTYPE9  = 'gmag    '           / label for column 9                             TFORM9  = 'E       '           / format for column 9                            TUNIT9  = 'mag     '           / units for column 9                             TCOMM9  = 'g band mag'                                                          TUCD9   = 'phot.mag;em.opt.g'                                                   TUTYP9  = 'caom:apass.catalogEntity.mag'                                        TTYPE10 = 'rmag    '           / label for column 10                            TFORM10 = 'E       '           / format for column 10                           TUNIT10 = 'mag     '           / units for column 10                            TCOMM10 = 'r band mag'                                                          TUCD10  = 'phot.mag;em.opt.r'                                                   TUTYP10 = 'caom:apass.catalogEntity.mag'                                        TTYPE11 = 'imag    '           / label for column 11                            TFORM11 = 'E       '           / format for column 11                           TUNIT11 = 'mag     '           / units for column 11                            TCOMM11 = 'i band mag'                                                          TUCD11  = 'phot.mag;em.opt.i'                                                   TUTYP11 = 'caom:apass.catalogEntity.mag'                                        TTYPE12 = 'Verr    '           / label for column 12                            TFORM12 = 'E       '           / format for column 12                           TUNIT12 = 'mag     '           / units for column 12                            TCOMM12 = 'V mag error'                                                         TUCD12  = 'stat.error'                                                          TTYPE13 = 'B_Verr  '           / label for column 13                            TFORM13 = 'E       '           / format for column 13                           TUNIT13 = 'mag     '           / units for column 13                            TCOMM13 = 'B-V mag error'                                                       TUCD13  = 'stat.error'                                                          TTYPE14 = 'Berr    '           / label for column 14                            TFORM14 = 'E       '           / format for column 14                           TUNIT14 = 'mag     '           / units for column 14                            TCOMM14 = 'B mag error'                                                         TUCD14  = 'stat.error'                                                          TTYPE15 = 'gErr    '           / label for column 15                            TFORM15 = 'E       '           / format for column 15                           TUNIT15 = 'mag     '           / units for column 15                            TCOMM15 = 'g mag error'                                                         TUCD15  = 'stat.error'                                                          TTYPE16 = 'rErr    '           / label for column 16                            TFORM16 = 'E       '           / format for column 16                           TUNIT16 = 'mag     '           / units for column 16                            TCOMM16 = 'r mag error'                                                         TUCD16  = 'stat.error'                                                          TTYPE17 = 'iErr    '           / label for column 17                            TFORM17 = 'E       '           / format for column 17                           TUNIT17 = 'mag     '           / units for column 17                            TCOMM17 = 'i mag error'                                                         TUCD17  = 'stat.error'                                                          TTYPE18 = 'nObsNights'         / label for column 18                            TFORM18 = 'J       '           / format for column 18                           TCOMM18 = 'No nights observed'                                                  TUCD18  = 'meta.number'                                                         TTYPE19 = 'nObsImages'         / label for column 19                            TFORM19 = 'J       '           / format for column 19                           TCOMM19 = 'No images observed'                                                  TUCD19  = 'meta.number'                                                         TTYPE20 = 'Field   '           / label for column 20                            TFORM20 = '10A     '           / format for column 20                           TCOMM20 = 'field name'                                                          TUCD20  = 'obs.field'                                                           TTYPE21 = 'mag     '           / label for column 21                            TFORM21 = 'E       '           / format for column 21                           TUNIT21 = 'mag     '           / units for column 21                            TCOMM21 = 'best mag'                                                            TUCD21  = 'phot.mag;em.opt'                                                     DATE-HDU= '2020-08-14T08:24:16' / Date of HDU creation (UTC)                    STILVERS= '3.4-1   '           / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / STIL Author class      END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 r¨?@rÍ
+{NTø@Mz0	³)?Á‰7KÆ§ğ?Å¸Që…A8´9½¾wA8{A>İ/A7&éA6í‘=#×
+>»dZ>º^5>Ú¬>C–>F§ğ      0020122542A8´9    r¨S@rÍC¬Äğ@MyWÿ›V2?ğbMÒñª?êÀƒn—A°!?ùÛA†§ğAƒ“uAçmAz\=<j=áG®=ÌÌÍ    <ıó¶=´9X      0020122542A°!    r¨R@rÍ@    @M{†ô{g?Àƒn—P?å$İ/ AVV?$İ/A`Ÿ¾AZn˜ARí‘APJ<D›¦<ƒo<#×
+    ;Ä›¦<e`B      
+0020122542AVV    r¨@rÌ|qÖ1@Mzw—|?ÙÊÀƒn˜?æ§ï²-AsÎÙ>Ñë…Az^5Au×
+Ao®AlÙ<ıó¶=D›¦=P    <õÂ          0020122542AsÎÙ    r¨„@rÍáÆÅ*@Mz™kvp ?æ§ï²-?àzáG®{At“u?;dA~‡+AxMÓAp~úAmSø=,1=uÂ=0 Å    <´9X=Àƒ      0020122542At“u    r§ü@rÌ;ø3‚ä@M{Ÿ+©Ñö?Õp£×
+=q?ãS÷ÎÙ‡Ao33?X“uA|¼jAt´9AjIºAe²;Ä›¦=<j=<j    =o=q©ü      0020122542Ao33    r¨_@rÍg!éB@M}Îl	=–?Ğƒn—P?à“t¼j~úA[X?*ÀƒAfA_l‹AWë…AT§ğ;Ä›¦<Tıô<D›¦        ;Ä›¦      0020122542A[X    r¨ˆ@rÍóÙìp @M|*¡”9Ş?Õ‘hr° Å?Ú° Ä›¥ãA^Ù?‡PAoÊÁAfáHAW÷ÏAQ¶F<#×
+<´9X<£×
+    ;Ä›¦=ƒo      0020122542A^Ù    r¨"@rÌºµå*@M~g8}¿?å¡ÊÀƒo?ö(õÂ\)Au"Ñ?Hr°A€ÒòBÇÿ}ArÈ´Ap=q=e`B=™™š=H´9Aûç              0020122542Au"Ñ    r¨@rÍĞ)®O3@M}œ„/¥	?î° Ä›¥ã?ë"Ğå`A‰A€zá?+C–A…ÔşAƒ1A~å`AxùÛ=#×
+=Â\=° Å    =¥ã          0020122542A€zá    r§Ş@rËÓ4ÅÚj@Mz°ı¤?Û…¸Që…?è¼j~ùÛ#Aw&é?$ZA€¸RAzÙAqãTAoOß=²-=ÎÙ=På`    =´9X=#×
+      0020122542Aw&é    r¨g@rÍ†ñV@MuˆTÍ·®?Ør° Ä›¦?Ğ      AZƒ?‚JAjÄœAaxÕAUoAO|î;Ä›¦<ƒo<uÂ        =H´9      0020122542AZƒ    r¨a@rÍhëF4˜@M‹Íşü?ä¼j~ùÛ#?è¬1&éyAn˜?-OßA†Û#A‚/A¸Ax£×<õÂ=Ôıô=ÌÌÍ    =£×
+          0020122542An˜    r¨¡@rÎ0)(v@Mx&‘d@ò?îzáG®?éÊÀƒn˜A€r°?0£×A…ùÛA‚áHA}`BAxbN<´9X=Æ§ğ=Àƒ    =§ï          0020122542A€r°    r§Ú@rËÏ)Ôà@M|O¹{·1?Ûçl‹C•?ÏŸ¾vÈ´AgC–?J~úAsë…Alí‘Ac‰7A_Æ¨<å`B=P<Ä›¦    =<j=©ûç      0020122542AgC–    r§Ì@rË±şë-
+@Mwœ…×E?àıó¶E¡Ë?ÚáG®záApÈ´?ÔşAzVAtéyAlùÛAiÊÁ<o=\)=C–    ;Ä›¦=D›¦      0020122542ApÈ´    r¨N@rÍ9Áø]t@M€Ÿ±m?Øƒn—P?ä›¥ãS÷ÏAs\)?7ÎÙA~ÙAxÙAo¾wAkdZ<£×
+=@ƒ=0 Å        =%      0020122542As\)    r§´@rËz](Ğ@M{<WŸ#F?İ¡ÊÀƒo?ŞÈ´9XbA|£×?¬¬A‰ AƒA‰As™šAjbN<¬1>“>J    =Y‡=¾w      0020122542A|£×    r¨o@rÍšš€If@M€«÷j/I?À Ä›¥ãT?ºŸ¾vÈ´9A3×
+?D›¦A@ ÅA<¬A.-A( Å;ƒo?‰7?‰7    ;£×
+<o      0020122542A3×
+    r¨¶@rÎbæê…D@Mv¸w«?µÂ\(õÃ?½/Ÿ¾vÉA(zá>”ıôA-"ÑA/º^A&~úA$éy<Ä›¦>•>”ıô>Û¥ã<Ä›¦=0 Å      0020122542A(zá    r¨•@rÎÓŒÚ@M€E4½vî?ìİ/Ÿ¾w?ĞbMÒñªAs;d?H1'A¾wAxVAo"ÑAk÷Ï=\)=®{=D›¦    <¬1=o      0020122542As;d    r¨V@rÍIs:Š@Mr²ò03¤?Ä›¥ãS÷Ï?É™™™™™šAd~ú?5?AnbNAgë…AaXA^b;Ä›¦<£×
+<›¥ã    <#×
+<‹C–      0020122542Ad~ú    r¨±@rÎWÙôÓ@M–ú‚è}?Ë"Ğå`A‰?äÌÌÌÌÌÍAoV>÷KÇAvÈ´As‡AlMÓAi\)    <õÂ<õÂ    <ÌÌÍ=ÊÀƒ      0020122542AoV    r¨Ì@rÎ ‘:O‡@M~^ö/œ¦?àQë…¸R?ã"Ğå`A‰Ad—?st¼AsÎÙAkG®A_l‹AZJ<49X<Ôıô<¼j    <ƒo<#×
+      
+0020122542Ad—    r¨Ü@rÎÑƒjƒ@M~ /µĞ?ç
+=p£×
+?ÆéxÔıó¶AaP?8ÔşAm AfMÓA]ãTAZĞå<o<›¥ã<‹C–    <£×
+<e`B      
+0020122542AaP    r¨U@rÍF‰†üß@M‚¦	¤ø?Çl‹C•?½/Ÿ¾vÉA\Ù?©xÕArAfõÃAU¾wAMÛ#;Ä›¦<´9X<¬1    <“t¼<ıó¶      0020122542A\Ù    r¨@rÌd2‹n@Mq÷‹½8?Ô›¥ãS÷Ï?ÈõÂ\(öAhñª?3÷ÏAt1'Am÷ÏAe&éAaKÇ<#×
+<İ/<ÌÌÍ    =+=®{      0020122542Ahñª    r§é@rËşœˆac@MrL{Õ?¿¾vÈ´9X?İ¡ÊÀƒoAXİ/?ãTAa?}A\AUÛ#AS\)<‹C–<£×
+<#×
+    <o<49X      0020122542AXİ/    r§Õ@rËÇú D¯@Mrµ‘FäÁ?è“t¼j~ú?ßŸ¾vÈ´Arİ/?/ß;A}Û#AvñªAmº^Ahb<“t¼=49X=#×
+    =D›¦>zá      0020122542Arİ/    r¨@rÎ+q2rC@M‚/Ñ|_?Ó÷ÎÙ‡+?İ¸Që…Au"Ñ?)7LA¶FAyC–AqG®An´9<‹C–=H´9=<j        =° Å      0020122542Au"Ñ    r¨@rÌ²a|Ú@Mƒ|=h@[?óÊÀƒn˜?õ$İ/A†G®?$İ/A‹n˜BÇÿ}A…"ÑA‚E¢=yÛ#>/ >#×
+Aûç              0020122542A†G®    r¨B@rÍ¼@MƒÎázû?İ/Ÿ¾vÉ?Ô(õÂ\)Ao²?5?Ay|îAsp¤Ak¾wAh\<£×
+=¾w=+    =+=²-      0020122542Ao²    r©@rÏ`?pXX@M{Ø't?Ğ“t¼j~ú?áûçl‹C–AwÒò?N{A‚ZA~¬As"ÑAoV=§ï=Ğå`=yÛ#    =C–=Ğå`      0020122542AwÒò    r©@rÏaqŸ@Mx‡+J?Ã•$İ/?à Ä›¥ãTASº^?Æ¨A\vÉAW APIºAMï    <o<o    <“t¼=,1      0020122542ASº^    r¨¿@rÎ„e>Š@Mñ¾ôœõ?éÊÀƒn˜?ç²-VA€º^>âMÓA„C–AûçA~9XAy`B<¼j=›¥ã=“t¼    <#×
+>      0020122542A€º^    r§†@rÊîbT@Mudf±æ?à£×
+=p¤?ß
+=p£×
+AoKÇ?G®A{ÂAsÛ#Aj§ğAfİ/;Ä›¦=¥ã=¥ã    <uÂ<o      0020122542AoKÇ    r§Ä@rË °«.@Mr%cf×¥?ÎùÛ"Ğå`?Ö5?|í‘hAU÷Ï?l‹A^n˜AY+AS;dAP´9<e`B<ƒo<t¼    =\)='ï      0020122542AU÷Ï    r©@rÏVTÖ*@M}a^¿¨ø?ĞÔıó¶E¢?å‡+JAp1?9XAyOßAt¬Am|îAl{<¬1=¥ã=o    <ÌÌÍ>Iº      0020122542Ap1    r¨ú@rÏCú*Óé@M~+Q½aö?Ùhr° Äœ?Ñº^5?|îAchs?7ÎÙAnéyAh(öA_ûçA\Iº<49X<´9X<›¥ã    ;Ä›¦<49X      
+0020122542Achs    r§ @rË?7T*@MEñ{Ø¾?ÂMÒñ©ûç?Ã•$İ/A$£×?>¸RA0\A0Ÿ¾AùÛA1    ? A‰? A‰>Ö‡+              0020122542A$£×    r¨W@rÍPÛğV?@Moå\ËO?Ø“t¼j~ú?ÓC•$İAghs?TıôAt¸RAm;dAcÊÁA_Æ¨;Ä›¦<Ôıô<ÌÌÍ        =¾w      0020122542Aghs    r¨@rÌGÆ;@MpJßø"¼?ŞV“t¼?é¸Që…Az(ö?"ÑAí‘A}%AvÄœAu¥ã=LÌÍ=¥ãT=ƒo    =¾w          0020122542Az(ö    r?@rÊ€6†¤Ê@Mz)AAé¯?ßOß;dZ?èQë…¸RAwp¤BÇÿ}BÇÿ}Az{AsSøAqxÕ    AûçAûç<¬1;Ä›¦>¸      0020122542Awp¤    rL@rÊ¤R´Ù@Mv<–‰D?Ü›¥ãS÷Ï?ÖvÈ´9XANÌÍ>€ƒARĞåAR=qALAI²-;Ä›¦>Æ$İ>Æ$İ    <ıó¶=]/      0020122542ANÌÍ    r¨L@rÍ1º@M„·ˆ—é–?Ö—Oß;d?Ü(õÂ\)An¬?L‹DA{t¼AtbNAj§ğAeûç<ÌÌÍ=0 Å=\)        <í‘h      0020122542An¬    r©@rÏ–ÊFà@MxWÙÛ©	?ìí‘hr°!?Ş¸Që…¸Ay•?G+AƒA7LAu¡ËArÙ    =%=%    =0 Å<›¥ã      0020122542Ay•    r¨ó@rÏ- ´Zæ@M€­  õ?ÒĞå`A‰7?ÜzáG®{Aq®?!%A{¾wAv“uAm&éAjbN=LÌÍ=yÛ#=C–    <“t¼=8Qì      0020122542Aq®    r©@rÏ¨Ü˜ë@M|Ô,<í?ğV“t¼?ä¬1&éyAƒ1BÇÿ}BÇÿ}A†ß;A‚SøAÎÙ    AûçAûç=]/=ixÕ          0020122542Aƒ1    r©@rÏ¯×^ G@Mw‹Íşûô?ævÈ´9X?ân—Oß;AsÎÙ?aG®A€ñªAzbNAoçmAl“;Ä›¦=LÌÍ=LÌÍ    =,1>1'      0020122542AsÎÙ    r§}@rÊØÆÖÇ@Msr’Ä“B?Á‰7KÆ§ğ?Éº^5?|îAbZ?+…AmoAfõÃA^~úAZ\<uÂ<¼j<“t¼    <ƒo=]/      0020122542AbZ    r§è@rËş}=C@MoŸU›=?·ÎÙ‡+?ÀbMÒñ©üA;ûç>q©üA?ÂA? A97LA7 ;Ä›¦>Æ$İ>Æ$İ    <ƒo<å`B      0020122542A;ûç    r¨+@rÌÖ¼¥7]@M…ºîí‰?ÓdZ¬1?æV“t¼Au÷Ï?JÀƒAQìAz¸RAqÒòAmÎÙ<í‘h=uÂ=Y‡        =²-      0020122542Au÷Ï    r©@rÏ€.#(ú@Mt@Ğª§ß?Ùë…¸Qì?Ş$İ/Ÿ¾Aw¥ã? ÄœA²-Az~úArñªAoC–<#×
+=<j=8Qì    =]/=£×
+      0020122542Aw¥ã    r"@rÊ3;–¯@M{òMÕË?Ë"Ğå`A‰?Ø£×
+=p¤AqC–?AÊÁA}dZAvr°Am‰7Ajƒ<e`B='ï=¾w    <›¥ã;Ä›¦      0020122542AqC–    r@rÊ)u¯¯†@Mx–öQ*•?İ‘hr° Å?òQë…¸RA}©ü?ZáHA…¬AĞåAz§ğAsãT=áG®>\)=²-    >J<“t¼      0020122542A}©ü    r'@rÊ;âĞ@M~4çhZ?Ï²-V?à1&éxÔşAnéy?²-AOßAw•Ai¸Ab¸R<#×
+=På`=LÌÍ        =P      0020122542Anéy    r=@rÊ{À n @M€|·
+Ã¨?Ê~ùÛ"Ğå?Ôıó¶E¡ËAw\)?˜õÃA…=qA€=qAoãTAiG®='ï=¬1=•    ;Ä›¦=ñ©ü      0020122542Aw\)    r¨@rÌHH8}ö@Mnp6ÉÁ?ò—Oß;d?Û¶E¡ÊÀƒA‚l‹?rn˜AŠ  A…1A€MÓAx1'=ë…>?|î>‡+                  0020122542A‚l‹    r©4@rĞ	¤Y=@M|Ş˜®¸?ÓÆ§ï²-?İ²-VAyt¼?©‡A‡KÇAë…ArJAiC–<49X=ÌÌÍ=ÊÀƒ    =yÛ#=Oß      0020122542Ayt¼    r@rÉø{Üğ0@Mz0Dkj?Ó¥ãS÷ÎÙ?ã•$İ/Aj Å?'ïAtŸ¾Anr°AfõÃAe<Ôıô=t¼<ÌÌÍ    <D›¦;Ä›¦      0020122542Aj Å    r¨ê@rÏ¬âKº@M„¶0©?ßÎÙ‡+?Ó"Ğå`A‰A‚BÇÿ}BÇÿ}A„ïA|Ÿ¾Au•    AûçAûç=aG®<¬1          0020122542A‚    r©=@rĞ<64@Myg]Ğ–?ë|í‘hr°?ê§ï²-A}p¤?«A‰hsA‚ÒòAv  Am/;Ä›¦=ûçm=ûçm    <£×
+=¶E¢      0020122542A}p¤    r¨Ù@rÎÇ	t@Mo ìt2?Ú¬1&é?àÌÌÌÌÌÍAs•?TıôA€r°AySøAnQìAip¤<›¥ã=På`=@ƒ    <İ/=¼j      0020122542As•    r¨x@rÍ¶˜x1j@Mm6ï€Uü?ë"Ğå`A‰?¾5?|í‘hA_o?^vÉAlùÛAdÈ´AYß;AUhs<49X<£×
+<‹C–    =P<#×
+      0020122542A_o    r:@rÊr[U@Mr!)Es¨?ÂMÒñ©ûç?Äİ/Ÿ¾wA;Â>âĞåABÙA@ñªA7ÊÁA4~ú;Ä›¦>Ş¸R>Ş¸R    <o=¾w      0020122542A;Â    r¨@rÎ'e47?@M†ÕØIo?ë
+=p£×
+?òQë…¸RA‡ıô?÷ÏAŒŸ¾BÇÿ}BÇÿ}BÇÿ}>ŒÌÍ>©xÕ>;dZAûçAûçAûç      0020122542A‡ıô    rN@rÊ¨DŒ÷Ë@Mpæ1ø ?å²-V?äbMÒñ©üAwOß?²-A„ƒAAq™šAj1'<#×
+=£×
+=¡ÊÁ    =#×
+=›¥ã      0020122542AwOß    rœü@rÉÏé·¿@MwÒcÃ?æ-V“?áÊÀƒn˜AxE¢?i7LAƒl‹A~bNAréyAnõÃ=ıó¶>\)=…¸    <uÂ>1&é      0020122542AxE¢    r©@rÏXğÇ}Ø@Mƒæÿ}ú?ÅãS÷ÎÙ?ğ—Oß;dAqß;?½ó¶A„ÎÙA}²-Ai&éA[Û#=%=ÊÀƒ=²-    =m‘h>äZ      0020122542Aqß;    r§ß@rËÙX–š@M‡æÎ-?ÖÙ‡+?ßß;dZ¬Am+?/ Ax¬AqûçAiVAfIº<¬1=t¼<õÂ    <#×
+<o      0020122542Am+    r§¥@rËV)Ø@@M†Aíá?âÈ´9Xb?ÙXbMÒòAa33?y‡ApÈ´AhE¢A[ë…AW ;Ä›¦<¬1<£×
+    <´9X=q©ü      0020122542Aa33    r©@rÏ»L<µ@Mq×#gä?Î—Oß;d?ÀbMÒñ©üA_©ü?R-AlÌÍAe÷ÏAZE¢ATV;Ä›¦<“t¼<‹C–    <49X<o      0020122542A_©ü    r©O@rĞ\l¡@M|õŸ<q?Ú¬1&é?Ğå`A‰7LARİ/?"MÓA]%AW/AO…ALQì    <o<o    <o=t¼      0020122542ARİ/    r§@rË@ €@M…qÑÔsŠ?Ş$İ/Ÿ¾?çn—OßAxff?)ûçAƒA}/Au+ArÙ<¼j=m‘h=Y‡    <ÌÌÍ>&éy      0020122542Axff    r©K@rĞSF™A…@M~îñºÂß?Ğå`A‰7L?Ä¼j~ùÛ#A[çm?›¦Ad1'A^È´AX´9AV¬<‹C–<£×
+<D›¦    =P=uÂ      0020122542A[çm    rœğ@rÉ²ŸDÔ@M~% …²?Ã¶E¡ÊÀƒ?ÒáG®záApÌÍ?+A{|îAuxÕAláHAh´9=C–=På`=¥ã    =¶E¢=° Å      0020122542ApÌÍ    r@rÉôCÔk'@Ms¶NG?é‡+J?ğİ/Ÿ¾wAy÷Ï?™šAÈ´A}SøAv(öAtƒ    =yÛ#=yÛ#    =e`B>:^5      0020122542Ay÷Ï    r;@rÊyWÿ›@Mp(D€c?âáG®zá?èQë…¸RA€?2-A…•AÊÁAz(öAuº^>"Ğå>=p¤=Àƒ    =Tıô=P      0020122542A€    r¨ä@rÎ÷ GMœ@MmêW!O?İÂ\(õÃ?Ù&éxÔıôAQSø>OßAU¾wAUVANjAKûç;Ä›¦>Ïß;>Ïß;    <›¥ã=}ó¶      0020122542AQSø    r©P@rĞ]8Š‹	@Mu	1)Ì?Ê¬1&é?Á©ûçl‹DA;Oß>¨õÃA@“uA?C–A8-A5|î    >ĞbN>ĞbN    <ƒo=C–      0020122542A;Oß    r¨Ú@rÎÍ½øôs@M‡íÍ:?Û…¸Që…?Û"Ğå`A‰Akó¶??¾wAwïAq|îAfõÃAbĞå=@ƒ=aG®<í‘h        =Ğå`      0020122542Akó¶    r@rÉŞºjÊy@M¤ørm?ÙxÔıó¶F?ÚMÒñ©ûçAnZ?‘G®A€A‰AwXAhE¢AaÊÁ<ÌÌÍ=På`=8Qì    <49X=¾w      0020122542AnZ    r©D@rĞF6°–5@M€¦;h‹Û?Ç®záG®?¾vÈ´9XA<ıô?‡l‹AMë…AHE¢A5 A,E¢<o?÷Ï?÷Ï    =¥ã<D›¦      0020122542A<ıô    r¨ü@rÏHŒŠ½@M…ÌqæÍ?½²-V?Áë…¸QìA$E¢?,ÌÍA/oA/¾wAéyA‹D<#×
+>õÂ>õ?}>ÎÙ              0020122542A$E¢    r¨4@rÌö¶àÒ=@Mk-©†v§?àbMÒñª?ç¾vÈ´9XAs•?$›¦A}ß;AwXAoÛ#Alff=Y‡=‹C–=,1    ;£×
+<e`B      
+0020122542As•    r©C@rĞDìck	@M\Ğ»nÖ?»¥ãS÷ÎÙ?ŞùÛ"Ğå`AW¥ã?À£×Aoº^Ac\)AO¥ãAF¸R<‹C–<Ä›¦<“t¼    =H´9<“t¼      0020122542AW¥ã    r@rÊ
+û;u!@MqrŒÖ=?¿¾vÈ´9X?¹Û"Ğå`BA"Àƒ?5?}A.{A/ÂA÷ÏAÀƒ;å`B>±©ü>±©ü?Ğå              0020122542A"Àƒ    rœÕ@rÉ]…TÖ@Myc¡ ?ón—Oß?ğbMÒñ©üA„VBÇÿ}BÇÿ}A‡jA€÷ÏAw|î    AûçAûç=ixÕ<å`B          0020122542A„V    r7@rÊh¼œ$@MowÈy«?ğÙ‡+?õ/Ÿ¾vÉA‚¬?A†t¼Aƒ/A€ÙBÇÿ}=m‘h=ß;d=¼j        Aûç      0020122542A‚¬    r,@rÊK.œË}@M„{ª›I?À Ä›¥ãT?¾¸Që…¸AW?0bNAb‡+A[ÒòATIºAPùÛ<#×
+<e`B<#×
+    <¼j=}ó¶      0020122542AW    r¨ç@rÎıç!é@M‡qÁ{ê?Û¶E¡ÊÀƒ?â$İ/Ÿ¾A]Oß?—Aq"ÑAf›¦AVùÛAP(ö=8Qì=H´9<£×
+    <ƒo=§ï      0020122542A]Oß    r§Š@rÊ÷…r›(@MlíV°ş?Øƒn—P?ç¶E¡ÊÀƒAv$İ?$›¦A€7LAy‡AráHAop¤<‹C–=På`=D›¦    =}ó¶<49X      0020122542Av$İ    r©N@rĞZ÷(@M‚%ò{?áûçl‹C–?Ôj~ùÛ"ÑAhÙ?¦‡+A}©üArvÉAb(öAZĞå;Ä›¦=¾w=¾w    =#×
+          0020122542AhÙ    r©@rÏ¹¬ÿ§ë@M…£+ÓA?ê-V“?ÎÙ‡+A†`BBÇÿ}BÇÿ}BÇÿ}BÇÿ}A€\)    AûçAûçAûçAûç>hr°      0020122542A†`B    r©!@rÏ¿m3	B@M…¡]³9~?æÙ‡+?ğMÒñ©ûçBÇÿ}BÇÿ}BÇÿ}Aˆ²AƒùÛBÇÿ}AûçAûçAûç=›¥ã>@ƒAûç      0020122542Aˆ²    rœÓ@rÉY¥"cØ@M[†H„?Ún—Oß;?ã333333APŸ¾>t¼jATr°AQ\)APA‰APJ<49X<Tıô;Ä›¦                  0020122542APŸ¾    r©T@rĞk$¦¨v@MrlÁÊ:?Ïß;dZ¬?½²-VA@å`>Ç®AG"ÑAE•A=+A9ãT;Ä›¦>âMÓ>âMÓ    <49X=Y‡      0020122542A@å`    r§Â@rËr¾”@Mk"‘Ä¹?ç;dZ¬?èr° Ä›¦A{`B?(öA‚‘hA™šAvE¢Ar  <t¼=ƒo=%    <ıó¶=²-      0020122542A{`B    r+@rÊG5ï¦@M…ÆCEÏî?åãS÷ÎÙ?à1&éxÔşAp Å?%¸Azr°AtÀƒAl“uAjŸ¾;Ä›¦=\)=\)    <uÂ=‹C–      0020122542Ap Å    rœÂ@rÉ=­u±@M~¬¸ZO?³t¼j~ùÛ?·KÆ§ï²A,¼j>Oß;A/÷ÏA3®A*\A)/<e`B>Â\>Â\>âMÓ<¬1=LÌÍ      0020122542A,¼j    r¨i@rÍ¦Á I@Miîˆß73?Ğ1&éxÔş?ÊŸ¾vÈ´9Aeï?/ Apİ/AjMÓAaûçA^b='ï=<j<£×
+    =t¼=LÌÍ      0020122542Aeï    rœ°@rÉIlÊ@My‡aˆ±?Ø´9XbN?Î5?|í‘hAuÊÁ?8QìA€©üA{"ÑAq`BAm®=q©ü=›¥ã=H´9    <İ/>bN      0020122542AuÊÁ    r6@rÊdŸQi@M†µ,ı?ìÔıó¶E¢?îMÒñ©ûçAydZ?r°!A„IºA©üAuC–Ap§ğ=‡+=Æ§ğ=‘hs    <D›¦=ï²      0020122542AydZ    rœÃ@rÉ?1n7@M€ «†+?Ì‹C•%?Ö§ï²-AaxÕ?H´9AnAfƒA]SøAY²<å`B=C–<›¥ã    <‹C–=Ôıô      
+0020122542AaxÕ    r©Z@rĞ€%Nn@MƒC®«y–?àÔıó¶E¢?êV“t¼A~\?S¶FA…å`A‚bAw×
+AsG®<D›¦=®{=¬1    =¶E¢=¡ÊÁ      0020122542A~\    r¨/@rÌßÄÁe@MiE0‹¹?æ=p£×
+=?ã"Ğå`A‰At5??YÛ#A€éyAxéyAoÛ#Akçm=£×
+>fff>W
+=    <í‘h=ë…      0020122542At5?    r¨Ï@rÎ©+0/@MjSÁH4L?Ğ1&éxÔş?Ñë…¸QìAf¬>-VAhĞåAf ÅAdıôAe‘h=‰7L=Oß<uÂ    <“t¼=P      0020122542Af¬    rœÿ@rÉØ”+å@Mnñ€
+|[?íë…¸Qì?ãß;dZ¬A}¡Ë?=ó¶A„ÀƒA€¼jAxMÓApÔş=P=¥ã<o    =0 Å          	0020122542A}¡Ë    rœä@rÉ‰%x_@MƒşûôÅ?ã®záG®?Ñ©ûçl‹DAUp¤?-VA`A‰AY©üAQïAN£×<ƒo<“t¼<t¼    =<j=° Å      0020122542AUp¤    r©@@rĞ?ò^VÍ@Mn¿¹¾Ó?â^5?|í‘?èIº^5?}A]Òò?‘ë…ApbAe²-AW÷ÏAQ¥ã    <£×
+<£×
+    <í‘h;Ä›¦      0020122542A]Òò    r(@rÊDR?gõ@Mlì®êc·?ã+Iº^?ä9XbMÓAuÒò>ñ©üA}`BAx{Ar“uAnÈ´=H´9=ƒo=#×
+    =e`B<İ/      0020122542AuÒò    rœ«@rÉ2/'5@M€\Nµo¹?İ¡ÊÀƒo?Ù©ûçl‹DATŸ¾?	º^A];dAX-AQïAOº^<¬1<¼j<t¼    =\)=‹C–      0020122542ATŸ¾    rœŠ@rÈ´	t@M{[Õì?ä      ?Ù&éxÔıôA€A‰?X“uA‡%Aƒ1'AzƒAw¸<ƒo=ÌÌÍ=ÊÀƒ    =8Qì=§ï      0020122542A€A‰    r@rÊM	@M‡u)wÈ?ÚIº^5??ğ1&éxÕArIº?F§ğA~°!AwAnzáAkçm>+>V=,1    <e`B=‘hs      0020122542ArIº    rœÅ@rÉDÅ—Nf@MpÍcËs?Í²-V?Ì¬1&éyALA‰?
+=qATáHAR5?AGp¤AC;d<å`B>ß;d>Ş¸R    <‹C–<İ/      0020122542ALA‰    r§w@rÊÎ&Ô€@MjW2üÂ?å™™™™™š?ÚÀƒn—AY÷Ï?„záAj‡+Aa33AT-ANQì=D›¦=LÌÍ<uÂ    =¥ã=¾w      0020122542AY÷Ï    r©E@rĞHS‚^@M†ÖUâŠ¤?ÍOß;dZ?ÔIº^5?}AXb?®ÙAmë…AbjAPÙAHùÛ;Ä›¦<‹C–<ƒo    <¼j          0020122542AXb    r©@rÏ„4ã6œ@MjÛ'£H?Ö¸Që…¸?á$İ/ AlZ?vÉAvA‰AoãTAh$İAdj=\)=™™š<í‘h    =…¸> Äœ      0020122542AlZ    r§¤@rËT¼@Mi,à2Û?ö1&éxÔş?ìbMÒñªA{÷ÏBÇÿ}BÇÿ}Al‹Ax´9Apıô    AûçAûç<İ/><j          0020122542A{÷Ï    r¨û@rÏDn)Ô@Miñ’l?íûçl‹C–?ót¼j~ùÛA}G®?hsAƒ/BÇÿ}Aw‘hAsÒò=Òñª=ûçm=‰7LAûç=ë…=¶E¢      0020122542A}G®    rœè@rÉ—Ûô‡ı@Mm¦µ(?ãÆ§ï²-?Ôj~ùÛ"ÑAl  ?mÒòAzáHAr=qAf9XA`Ôş<¬1=#×
+=C–    <D›¦>!ÊÁ      0020122542Al      rœ¢@rÈğ‰ 'R@Mq^9q:Ö?â“t¼j?ç®záG®AhE¢?NÙAu7LAmp¤AcÊÁA_<‹C–=+<å`B    <å`B          
+0020122542AhE¢    rœm@rÈbŞ‡	t@M|ç¼<[Ñ?Ù™™™™™š?ÖffffffA^ƒ?0 ÅAi…AcSøAZzáAV´9    <uÂ<uÂ    <¼j=…¸      0020122542A^ƒ    rœk@rÈT/aí[@MvÚ“)=?ŞzáG®?ÕOß;dZA[p¤?¼jAd¼jA^å`AX°!AU×
+;Ä›¦<Tıô<D›¦    <Ä›¦='ï      0020122542A[p¤    rœs@rÈs@ÔÜf@MrìÈ×(?ã;dZ¬?ã•$İ/Au®?-VA€?}Az°!Apå`AjùÛ;Ä›¦=<j=<j    =yÛ#=²-      0020122542Au®    rœo@rÈfšÔ,=@M‚Îš,f?À      ?¯;dZ¬AY?–AkÂAaë…AR¼jAL    <ƒo<ƒo        <o      0020122542AY    rœd@rÈ0˜N?ÿ@Mº#|ÜÊ?ĞõÂ\(ö?Ûçl‹C•AVŸ¾?,IºAadZA[&éAS AP1;Ä›¦<49X<#×
+    <Ôıô=‰7L      0020122542AVŸ¾    rœˆ@rÈ§uû.à@M…Ä¨;?ÛÆ§ï²-?Û…¸Që…AWãT?‘hA`¼jA[ïAT§ğAR  <D›¦<ƒo<#×
+    <›¥ã=Tıô      0020122542AWãT    m,@rÉŸ'x@Mi¡<%J<?â° Ä›¥ã?õ‰7KÆ§ğAƒ/?FffA‰bNA… ÅAdZA²<e`B>C–>
+=q    <å`B          0020122473Aƒ/    rœ3@rÇ¨µËÿG@Mw©Ÿ¡—?ÖÈ´9Xb?ÜzáG®{Aq²?™7LA‚bNAzÌÍAj¬AeÛ#<¼j=yÛ#=ixÕ    =¬1          0020122542Aq²    rœ.@rÇ—VÉ:q@Mzì#l?ÚŸ¾vÈ´9?áë…¸QìAq®?UA
+=Aw"ÑAn›¦AlMÓ=0 Å=}ó¶=8Qì    <49X=™™š      0020122542Aq®    rœ…@rÈXæK#@Ml¹Û¤×?ç\(õÂ\?î‡+IºAy¡Ë?BMÓA‚áHA~bAvMÓAq÷Ï=+=•=…¸    =<j=ƒo      0020122542Ay¡Ë    rœV@rÈ :¸b²@M„«¼±Ì–?ğáG®zá?îùÛ"Ğå`A‚Oß?^5?A‰A‰A„²A€oA}™š<‹C–>%>       <õÂ=‡+      0020122542A‚Oß    rœE@rÇÔñ^|@MqT:ê·™?å©ûçl‹D?ÚĞå`A‰7AxJ?$İ/A-A{XAtbApİ/<İ/=yÛ#=aG®    <#×
+=\)      0020122542AxJ    rœ»@rÉ(û ¼¾@Mi+ÓÃa?å$İ/?é²-VAxÄœ?6A‚oA|ĞåAt¼jApÙ=aG®>hr°>aG®    =Oß>“      0020122542AxÄœ    rœ@rÇ>õ©dé@Mu™ª`‘:?Ú° Ä›¥ã?çl‹C•A|j?(r°AƒxÕA€ AwÂAs¶F=8Qì=¬1=‘hs    =H´9          0020122542A|j    rœ5@rÇ¨ÀHZ@MnúaZë?Ô¼j~ùÛ#?Ôıó¶E¡ËAhÙ?CSøAuVAm¾wAdÔşAa7L;Ä›¦<å`B<İ/    <D›¦=ƒo      0020122542AhÙ    r›õ@rÇII.@M~°–5a?öÈ´9Xb?â$İ/Ÿ¾A~1'?@  A… Aß;AzáHAvÔş<‹C–=§ï=£×
+                  0020122542A~1'    r›ë@rÆ÷¬>·Ì@MuÅXdE$?Ô(õÂ\)?Ó333333ABıô>VAGp¤AF£×A@¬A=Òò;Ä›¦>ÌIº>ÌIº    <›¥ã=q©ü      0020122542ABıô    r›á@rÆã¥ÁÆ	@M}şŸ­¯Ñ?çÆ§ï²-?äj~ùÛ"ÑAmOß?hsAvffApƒAi`BAfZ<‹C–=+<å`B    <49X=o      
+0020122542AmOß    rœ@rÇUUæ¼@Mp+ìíÕ?Ô1&éxÕ?º^5?|í‘ADQì=ÎÙAEïAF-ABƒAAX;Ä›¦>Â\>Â\    =¾w=]/      0020122542ADQì    r›Ö@rÆÇØåó@MuĞá.ƒ¡?àí‘hr°!?Ò¬1&éAR1>]/AU|îATĞåAO/AMOß<‹C–>Ğå`>Ğå`    <í‘h=‰7L      0020122542AR1    r›æ@rÆñMµ•y@MÍ‘îªm?ğÔıó¶E¢?ØÔıó¶E¢Ah{?bAq•Al¬Adå`AbbN=Tıô=e`B<´9X    ;Ä›¦=İ/      0020122542Ah{    rœ@rÇmºMnH@Mm’?æ=p£×
+=?ì£×
+=p¤AzÙ?o\)A„çmA€¬AtñªAp‹D=¾vÉ>%=®{        =¥ã      0020122542AzÙ    r›×@rÆÊá’6@M€iß—ª¬?İp£×
+=q?Û…¸Që…Ap¤?IxÕA†A‚ÂA|“Ax=q<¼j=Àƒ=º^5    <49X          0020122542Ap¤    r›Ë@rÆ –x|é@MxTïE™?åOß;dZ?ø“t¼jA€Z>àA‰AƒÛ#BÇÿ}BÇÿ}BÇÿ}>(õÃ>7KÇ=\)AûçAûçAûç      0020122542A€Z    r›í@rÆü™®’O@M…9m	×?êùÛ"Ğå`?ë×
+=p£×A‚‘h?A%Aˆ™šA…È´A€JBÇÿ}<o=ñ©ü=ñ©ü        Aûç      0020122542A‚‘h    r›Ğ@rÆ°hjM@MqÑöy}?Ì1&éxÕ?ĞA‰7KÆ¨AQC–>j~úATéyATIºANİ/ALõÃ<#×
+>Ä›¦>Ä›¦    <ıó¶=LÌÍ      0020122542AQC–    r›¾@rÆz>¯h@M·sŸ4?äA‰7KÆ¨?åÛ"Ğå`BAz  ?Hr°AƒA‰A%At¬Ann˜;Ä›¦=…¸=…¸    ;Ä›¦          0020122542Az      rœ @rÇì¿±[@M‡„n)Ô?è9XbMÓ?ğA‰7KÆ¨Av—?AG®AVA|bNArbNAoX=çl‹=ıó¶=Y‡    =§ï          0020122542Av—    r›Ñ@rÆ°1‹“G@M„ïo?ÛIº^5?æ¸Që…¸Ax5??‹A„ÊÁA€å`ApÌÍAh°!<D›¦=²-=›¥ã    <D›¦=¶E¢      0020122542Ax5?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
